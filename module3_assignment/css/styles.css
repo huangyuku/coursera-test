@@ -1,0 +1,59 @@
+.navbar-default {
+	border: 0;
+	background: grey;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+	font-size: 24px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: black;
+	padding: 5px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	border-color: white;
+	background: grey;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+	height: 4px;
+	width: 24px;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: white;
+}
+
+.navbar-header {
+	border-bottom: 1px solid black;
+}
+
+#mynavbar {
+	padding: 0;
+	border: 0;
+}
+
+#mynavbar >.navbar-nav {
+	background: white;
+	margin: 0;
+}
+
+#mynavbar >.navbar-nav>li {
+}
+
+#mynavbar >.navbar-nav>li>a {
+	border: 1px solid black;
+	border-top-width: 0;
+	color: black;
+	font-size: 18px;
+}
+
+.row {
+	background: grey;
+	margin: 10px;
+	height: 1000px;
+}
