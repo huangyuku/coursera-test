@@ -53,7 +53,15 @@
 }
 
 .row {
-	background: grey;
-	margin: 10px;
+	margin: 5px;
 	height: 1000px;
+}
+
+.dish {
+	padding: 5px;
+}
+
+.dish article {
+	padding: 1px 5px 1px;
+	background: grey;
 }
